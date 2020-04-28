@@ -3,9 +3,6 @@
 
 ### Installation
 ```bash
-# Create movies database
-# Import the movies.sql file
-
 # Install node dependencies
 npm install
 
@@ -18,7 +15,7 @@ php artisan migrate
 # To start Laravel app
 php artisan serve
 
-# To run API (open another terminal)
+# To run API (open in another terminal)
 npm run socket
 
 # Go to http://127.0.0.1:8000 in Browser
