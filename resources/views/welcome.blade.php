@@ -83,10 +83,11 @@
                 <div class="title m-b-md">
                     Markets App                </div>
 
+                    @auth
                 <div class="links">
                     <a href="{{ route('home') }}">Dashboard</a>
-                    
                 </div>
+                @endif
             </div>
         </div>
     </body>
