@@ -1,0 +1,20 @@
+@-webkit-keyframes newRow {
+  10% {
+    background-color: #bcd2d2;
+}
+100% {
+    background-color: inherit;
+}
+}
+@keyframes newRow {
+  10% {
+    background-color: #bcd2d2;
+}
+100% {
+    background-color: inherit;
+}
+}
+.newRow {
+  -webkit-animation: newRow 0.8s ease-out 0s;
+  animation: newRow 0.8s ease-out 0s;
+}
